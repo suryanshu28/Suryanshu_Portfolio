@@ -1,0 +1,1 @@
+var tablinks = document.getElementByClassName("tab-links");
