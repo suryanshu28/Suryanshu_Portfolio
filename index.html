@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Suryanshu Wadhel</title>
+    <link rel="stylesheet" href="app.css">
+    <script src="https://kit.fontawesome.com/47412c03ac.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="logo.PNG" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>FULLSTACK DEVELOPER</p>
+                <h1>Hi, My name is <span>Suryanshu Wadhel</span> <br> Welcome to my Portfolio!!</h1>
+                
+            </div>
+        </div>
+    </div>
+<!-- -------------------about-------------------------------------------------------------- -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="2.png" alt="">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About me</h1>
+                    <p>Hey there, I'm <span>Suryanshu Wadhel</span>, a passionate full-stack web developer with a knack for turning ideas into digital
+                         experiences. With a blend of creativity and technical expertise, I craft dynamic websites and applications that not only meet but exceed expectations.</p>
+                
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')" >Skills</p>
+                    <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>   
+                </div>
+
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li>    <span>Front-End</span> <br>HTML5, CSS3, Javascript,Bootstrap, React   </li>
+                        <li>    <span>Back-End</span> <br>Node, Express     </li>
+                        <li>    <span>DataBase</span><br>MySQL, MongoDB    </li>
+                        <li>    <span>DEVOPS</span><br>Git, Docker, Jenkins     </li>
+                        <li>    <span>Programming</span><br>Python, Java, Javascript     </li>
+                    </ul>
+                 </div>   
+
+                 <div class="tab-contents " id="experience">
+                    <ul>
+                     <li>    <span>Jio Platforms Limited</span> <br>Graduate Engineer Trainee (2023-)   </li>
+                                   
+                    </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li>    <span>2019-2023</span> <br>Bachelors of Engineering in Information Technology   </li>
+                        <li>    <span>2017-2019</span> <br>HSC (Computer Science)     </li>
+                       
+                    </ul>
+                 </div>      
+                
+                    
+            </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- ---------------------------sevices------------------------------------------ -->
+
+    <div id="services">
+
+        <div class="container">
+
+            <h1 class="sub-title">Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-regular fa-window-maximize"></i>
+                    <h2>Web Development</h2>
+                    <ul>
+                        <li>
+                            HTML5,CSS3,Bootstrap,Javascript,Node.JS <br>   Express.JS,React.JS
+                        </li>
+                    </ul>
+                    <a href="#projects">Learn More</a>
+                </div>
+
+                <div>
+                    <i class="fa-solid fa-database"></i>
+                    <h2>DataBase and Devops</h2>
+                    <ul>
+                        <li>
+                            MySQL, MongoDB, Docker, Git
+                        </li>
+                    </ul>
+                    <a href="#projects">Learn More</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Programming Language</h2>
+                    <ul>
+                        <li>
+                            Python, Java, Javascript
+                        </li>
+                    </ul>
+                    <a href="#projects">Learn More</a>
+                </div>
+
+            </div>
+
+
+        </div>
+
+    </div>
+
+    <!-- ////////////////////////////Projects/////////////////////////////////////////////////////////// -->
+
+    <div id="projects">
+        <div class="container">
+            <h1 class="sub-title">Projects</h1>
+
+            <div class="work-list">
+                <div class="work">
+                    <img src="ladybug.jpg" alt="Pesticide project">
+                    <div class="layer">
+                        <h3>Crop Diagnostic</h3>
+                        <p>Developed a WebApp for detecting pests affecting the growth of the crops and recommending pesticide for its prevention.</p>
+
+
+                    </div>
+                </div>
+
+                <div class="work">
+                    <img src="natural.jpg" alt="Pesticide project">
+                    <div class="layer">
+                        <h3>Natural Calamities Live Tracking Website</h3>
+                        <p>This project was developed for live tracking of natural calamities across the region. This model will help the users to track natural calamities and plan out their work accordingly</p>
+                    </div>
+                </div>
+
+                <div class="work">
+                    <img src="grocery.jpeg" alt="Pesticide project">
+                    <div class="layer">
+                        <h3>Grocery Store Data Analysis</h3>
+                        <p>Developed a WebApp for a predictive model and find out the sales of each attribute or variable products at a particular store</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+   <!-- /////////////////////////////////////////Contact///////////////////////////////////////////////// -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-regular fa-envelope"></i>wadhelsuryanshu@gmail.com</p>
+                    <p><i class="fa-solid fa-mobile-screen-button"></i></i>8452883144</p>
+                    <div class="social-icons">
+                        <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="#"><i class="fa-brands fa-square-twitter"></i></a>
+                        <a href="#"><i class="fa-brands fa-square-github"></i></a>
+                        <a href="#"><i class="fa-brands fa-square-instagram"></i></a>
+                    </div>  
+                    <a href="Suryanshu Wadhel Resume.pdf" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form >
+                        <input type="text" name="name" placeholder="Your Name......" required>
+                        <input type="email" name="email" placeholder="Your Email......" required>
+                        <textarea name="message"  cols="30" rows="6" placeholder="Your Message......."></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+
+                    </form>
+                </div>
+           
+    </div>
+</div>
+<div class="copyright">Copyright <i class="fa-regular fa-copyright"></i> Suryanshu Wadhel full-stack developer</div>
+</div>
+    
+
+  <script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+    function opentab(tabname){
+        for (tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+
+        for (tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab")
+
+
+    }
+
+
+    
+  </script>
+
+  <script>
+
+    var sidemenu=document.getElementById('sidemenu');
+    function openmenu(){
+        sidemenu.style.right="0";
+
+    }
+
+    function closemenu(){
+        sidemenu.style.right="-200px";
+        
+    }
+
+  </script>
+</body>
+</html>
